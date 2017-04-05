@@ -1,0 +1,58 @@
+{
+  "name": "leaflet.heat",
+  "version": "0.2.0",
+  "description": "A tiny and fast Leaflet heatmap plugin.",
+  "homepage": "https://github.com/Leaflet/Leaflet.heat",
+  "keywords": [
+    "heatmap",
+    "canvas",
+    "visualization",
+    "gis",
+    "leaflet",
+    "plugin"
+  ],
+  "author": "Vladimir Agafonkin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Leaflet/Leaflet.heat.git"
+  },
+  "main": "dist/leaflet-heat.js",
+  "devDependencies": {
+    "eslint": "^1.7.3",
+    "eslint-config-mourner": "^1.0.1",
+    "simpleheat": "git+https://github.com/spacemansteve/simpleheat.git#gh-pages",
+    "webpack": "^1.13.3"
+  },
+  "eslintConfig": {
+    "extends": "mourner",
+    "globals": {
+      "L": false,
+      "simpleheat": false
+    }
+  },
+  "scripts": {
+    "clean": "rm -Rf ./dist/*.*",
+    "compile": "webpack --config webpack.config.js",
+    "build": "npm run clean && npm run compile",
+    "test": "eslint src",
+    "pretest": "npm run compile",
+    "prepublish": "npm run build"
+  },
+  "license": "BSD-2-Clause",
+  "jshintConfig": {
+    "quotmark": "single",
+    "globals": {
+      "L": true,
+      "simpleheat": true
+    },
+    "trailing": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "noempty": true,
+    "nonbsp": true,
+    "undef": true,
+    "unused": true,
+    "browser": true
+  }
+}

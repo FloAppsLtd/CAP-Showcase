@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    "esformatter-jsx",
+    "esformatter-quotes"
+  ],
+  "jsx": {
+    "formatJSX": true,
+    "attrsOnSameLineAsTag": false,
+    "alignWithFirstAttribute": false,
+    "firstAttributeOnSameLine": true
+    },
+  "whiteSpace" : {
+    "before" : {
+        "FunctionName" : 1,
+        "FunctionExpressionOpeningBrace" : 1,
+        "FunctionExpressionClosingBrace" : 1
+    },
+    "after" : {
+        "MethodDefinitionName": 1,
+        "FunctionReservedWord": 1,
+        "FunctionName" : 1,
+        "FunctionExpressionOpeningBrace" : 1,
+        "FunctionExpressionClosingBrace" : 1
+    }
+  }
+}

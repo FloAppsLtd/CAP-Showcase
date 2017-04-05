@@ -1,0 +1,101 @@
+[{
+    "id": "ef79e51",
+    "userName": "user_117af6",
+    "eventTime": "2016-09-01T14:07:56.000Z",
+    "country": "FI",
+    "longitude": 25.466,
+    "latitude": 65.0167,
+    "score": 0.5,
+    "category": "session",
+    "comment": "Error in session"
+}, {
+    "id": "ef79e4c",
+    "userName": "user_0c9f95",
+    "eventTime": "2016-09-01T11:47:46.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 0.2,
+    "category": "session",
+    "comment": "Session Timeout"
+}, {
+    "id": "ef79e4b",
+    "userName": "user_f0d70b",
+    "eventTime": "2016-09-01T11:34:43.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 0.2,
+    "category": "download",
+    "comment": "Download Timeout"
+}, {
+    "id": "ef79e4b",
+    "userName": "user_f0d70b",
+    "eventTime": "2016-09-01T11:34:43.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 1,
+    "category": "user",
+    "comment": "Multiple users"
+}, {
+    "id": "ef79e48",
+    "userName": "user_6d7608",
+    "eventTime": "2016-09-01T09:51:11.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 0.2,
+    "category": "session",
+    "comment": "Session Timeout"
+}, {
+    "id": "ef79e48",
+    "userName": "user_6d7608",
+    "eventTime": "2016-09-01T09:51:11.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 1,
+    "category": "user",
+    "comment": "Multiple users"
+}, {
+    "id": "ef79e47",
+    "userName": "user_addfc8",
+    "eventTime": "2016-09-01T09:47:48.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 0.2,
+    "category": "session",
+    "comment": "Session Timeout"
+}, {
+    "id": "ef79e47",
+    "userName": "user_addfc8",
+    "eventTime": "2016-09-01T09:47:48.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 1,
+    "category": "time",
+    "comment": "Exceded time"
+}, {
+    "id": "ef79e46",
+    "userName": "user_4b55e7",
+    "eventTime": "2016-09-01T09:47:44.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 0.2,
+    "category": "time",
+    "comment": "Exceded time"
+}, {
+    "id": "ef79e45",
+    "userName": "user_addfc8",
+    "eventTime": "2016-09-11T09:22:09.000Z",
+    "country": "FI",
+    "longitude": 24.937,
+    "latitude": 60.1708,
+    "score": 1,
+    "category": "time",
+    "comment": "Exceded time"
+}]

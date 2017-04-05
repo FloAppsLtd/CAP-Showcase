@@ -1,0 +1,21 @@
+.marker-icon {
+    opacity: 0 !important;
+}
+
+.marker-divicon {
+    box-sizing: border-box;
+    width: 5px;
+    background-color: rgba(0, 117, 183, 1);
+    border-radius: 12px;
+}
+
+.marker-cluster-divicon {
+    box-sizing: border-box;
+    background-color: rgba(0, 117, 183, 1);
+    color: white;
+    padding-top: 4px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #444;
+    cursor: pointer;
+}

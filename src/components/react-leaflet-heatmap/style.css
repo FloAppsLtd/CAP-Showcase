@@ -1,0 +1,59 @@
+.map-legend {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    height: 50px;
+    width: 100px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid rgb(196, 195, 195);
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: flex-start;
+    z-index: 1000;
+}
+
+.map-legend h4 {
+    order: 1;
+    font-size: inherit;
+    font-weight: normal;
+    -webkit-align-self: center;
+    align-self: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.map-legend div {
+    order: 3;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+span.legend-min {
+    order: 3;
+    -webkit-flex: 1;
+    flex: 1;
+    margin-left: 2px;
+}
+
+span.legend-max {
+    order: 4;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: right;
+    margin-right: 2px;
+    width: 87px;
+}
+
+.map-legend img {
+    order: 2;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 15px;
+    width: 94px;
+    margin-bottom: auto;
+}
