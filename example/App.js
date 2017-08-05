@@ -85,12 +85,12 @@ class App extends React.Component {
       <div className='container'>
         <h1>react-dc-crossfilter examples</h1>
         <div className='row'>
-          <div className='col-md-6'>
+          <div className='col-md-8'>
             <InfoLabel dimension={ allDimension }
               group={ allDimensionGroup } />
           </div>
-          <div className='col-md-6'>
-            <button className={ 'btn btn-default' }
+          <div className='col-md-4'>
+            <button className={ 'btn btn-link' }
               onClick={ this.addOneRecord() }>
               Add one record
             </button>
