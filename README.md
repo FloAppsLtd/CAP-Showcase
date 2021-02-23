@@ -1,3 +1,7 @@
+# Archived in February 2021
+
+Repo has dependencies to vulnerable packages.
+
 # Interactive visualization components
 The following is a collection of [React](https://facebook.github.io/react/) components for interactive visualizations which includes charts and maps using [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org) and [Leaflet](http://leafletjs.com).
 
